@@ -6,11 +6,11 @@ OTA ?= none
 XTENSA_TOOLS_ROOT ?=
 
 # base directory of the ESP8266 SDK package, absolute
-SDK_BASE	?= /tools/esp8266/sdk/ESP8266_NONOS_SDK
+SDK_BASE	?= /home/hocarm/tools/esp8266/sdk/ESP8266_NONOS_SDK
 
 #Esptool.py path and port
-ESPTOOL		?= /tools/esp8266/esptool/esptool.py
-ESPPORT		?= /dev/tty.SLAB_USBtoUART
+ESPTOOL		?= /home/hocarm/tools/esp8266/esptool/esptool.py
+ESPPORT		?= /dev/ttyUSB0
 #ESPPORT		?= /dev/tty.wchusbserial1410
 #ESPDELAY indicates seconds to wait between flashing the two binary images
 ESPDELAY	?= 3
